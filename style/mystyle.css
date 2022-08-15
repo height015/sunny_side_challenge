@@ -1,0 +1,397 @@
+*{
+box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+}
+
+body{
+
+margin: 0px;
+}
+header{
+    height:700px;
+    background-image: url(../images/desktop/image-header.jpg);
+    padding:30px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+
+
+}
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 200px;
+    height:60px;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    margin-top:20px;
+    
+}
+
+
+.arrow{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.navlink ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+
+}
+
+
+.navlink  a {
+    text-decoration: none;
+    color: white;
+    padding:10px;
+  
+}
+
+.navlink a:hover{
+    text-transform: uppercase;
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    padding:10px;
+
+
+}
+
+.h1-head{
+    color:white;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.mid-sec{
+    width: 100%;
+    height: 1500px;
+}
+.row1{
+    height:500px;
+    display:flex;
+    justify-content: space-between;
+}
+.col1{
+
+  
+
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+}
+.lowa h1:after{
+   
+    /* text-align: center; */
+
+}
+.lowa{
+
+   
+    margin:0px auto;
+    margin-top: 70px;
+    width: 55%;
+    padding: 10px;
+}
+.next{
+    display:flex;
+}
+
+.lowa a{
+    text-decoration: none;
+    color: black;
+    font-size: 6px;
+    text-transform: uppercase;
+}
+
+.lol h1:after{
+   
+    content: " ";
+    display: block;
+    width: 7.8em;
+    height: .4em;
+    background-color: #e5ef1c;
+    border-radius: 0px 0px 80px 80px;
+    margin-top:-3px;
+    margin-left: -5px;
+
+}
+
+.col2{
+  
+    background-color:yellow;
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/desktop/image-transform.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.col3{
+
+    background-color:yellow;
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/desktop/image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.col4{
+
+ 
+
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+}
+.row2{
+    height:500px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.lol2 h1:after{
+   
+    content: " ";
+    display: block;
+    width: 7.8em;
+    height: .4em;
+    background-color:  rgb(184, 57, 57);
+    border-radius: 0px 0px 80px 80px;
+    margin-top:-3px;
+    margin-left: -5px;
+
+    /* Soft red: hsl(7, 99%, 70%) */
+
+}
+
+.row3{
+    height:500px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.col5{
+
+  
+    background-color:yellow;
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.col6{
+ 
+    background-color:yellow;
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/desktop/image-photography.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.seta{
+    margin-top:300px;
+    text-align:center;
+}
+.middlebet{
+    height:450px;
+
+}
+#checked{
+    text-align:center;
+    margin-top: 90px;
+    color:gray;
+}
+
+.toFlex{
+    display: flex;
+}
+.a1{
+    width:33.33%;
+    height: 400px;
+  
+}
+.a2{
+    width:33.33%;
+    height: 400px;
+  
+}
+.a3{
+    width:33.33%;
+    height: 400px;
+ 
+}
+
+.imgR{
+    border-radius: 100%;
+    display: block;
+    margin: 15px auto;
+
+}
+.a1 p{
+    display: block;
+   margin: 40px auto;
+   text-align: center;
+   width: 70%;
+
+}
+
+.a2 p{
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    width: 70%;
+
+}
+.a3 p{
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    width: 70%;
+
+}
+.a1 h1{
+
+    text-align: center;
+    font-size: 20px;
+}
+.a2 h1{
+
+    text-align: center;
+    font-size: 20px;
+}
+.a3 h1{
+
+    text-align: center;
+    font-size: 20px;
+}
+.a1 span{
+    color: gray;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size:10px;
+}
+.a2 span{
+    color: gray;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size:10px;
+}
+.a3 span{
+    color: gray;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size:10px;
+}
+.collagePic{
+    display: flex;
+    width: 100%;
+    height: 400px;
+
+}
+.p1{
+    height:400px;
+    background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
+    background-repeat: no-repeat;
+    width:25%;
+    background-size: cover;
+    background-position: center;
+}
+.p2{
+    height:400px;
+    background-image: url(../images/desktop/image-gallery-orange.jpg);
+    background-repeat: no-repeat;
+    width:25%;
+    background-size: cover;
+    background-position: center;
+}
+.p3{
+    height:400px;
+    background-image: url(../images/desktop/image-gallery-cone.jpg);
+    background-repeat: no-repeat;
+    width:25%;
+    background-size: cover;
+    background-position: center;
+}
+.p4{
+    height:400px;
+    background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
+    background-repeat: no-repeat;
+    width:25%;
+    background-size: cover;
+    background-position: center;
+}
+.footerCon{
+    width:100%;
+    height:260px;
+    border: 1px solid  #7AC7B7 ;
+    background-color: #7AC7B7;
+}
+.ff1 h1{
+    text-align: center;
+    padding-top:10px;
+}
+.ff2 ul{
+
+  text-align: center;
+  font-size:15px;
+  padding-top:20px;
+  
+ 
+}
+.ff2 li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+.ff3 ul{
+    padding-top: 50px;
+    text-align: center;
+
+}
+.ff2 ul a{
+    text-decoration: none;
+    color: black;
+
+}
+.ff3{
+    margin-right:30px;
+}
+.ff3 li{
+
+list-style: none;
+display: inline-block;
+margin-right: 10px;
+   
+}
+
+.ff3 li img{
+    width: 70%;
+
+}
